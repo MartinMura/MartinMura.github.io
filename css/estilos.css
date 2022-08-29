@@ -151,13 +151,18 @@ h2.titulo{
     transition: transform 0.6s;
 }
 
+
 .img-card{
 
     text-align: center;
-    height: 300px;
+    height: 153px;
+    width: 100%;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
     transition: transform 0.6s;
+    max-height: 100%;
+    max-width: 501px;
+    margin-top: 20px;
 }
 
 .img-card:hover{
@@ -198,8 +203,9 @@ h2.titulo{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     overflow: hidden;
+    padding-right: 52px;
 }
 
 .galeria-cont>img{
