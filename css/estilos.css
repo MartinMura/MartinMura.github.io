@@ -206,6 +206,7 @@ h2.titulo{
     justify-content: space-between;
     overflow: hidden;
     padding-right: 52px;
+    padding-left: 10px;
 }
 
 .galeria-cont>img{
